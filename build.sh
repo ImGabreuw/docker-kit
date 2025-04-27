@@ -13,7 +13,7 @@ if [ ! -f "$DOCKERFILE_PATH" ]; then
 fi
 
 RELATIVE_PATH=$(dirname "$DOCKERFILE_PATH")
-STACK=$(echo "$RELATIVE_PATH" | sed 's#^/##' | sed 's#/$##' | tr '/' '-' | tr '[:upper:]' '[:lower:]')
+STACK=$(echo "$RELATIVE_PATH" | sed 's#^/##' | sed 's#/$##' | tr '/' '-' | tr '[:upper:]' '[:lower:]' | sed 's/\.\(\|-*\)//g')
 
 IMAGE_NAME="imgabreuw/docker-kit:$STACK"
 
