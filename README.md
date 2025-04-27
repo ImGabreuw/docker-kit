@@ -4,56 +4,55 @@
 ![GitHub forks](https://img.shields.io/github/forks/ImGabreuw/docker-kit?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/github/issues/ImGabreuw/docker-kit?style=for-the-badge)
 
-Imagine acelerar o início de qualquer projeto, sem perder tempo com configurações repetitivas e complexas. O **Docker Kit** nasceu para transformar a forma como você lida com ambientes de desenvolvimento, trazendo praticidade, padronização e agilidade para o seu dia a dia. Com ele, você elimina barreiras técnicas e foca no que realmente importa: criar soluções incríveis. Seja você iniciante ou experiente, o Docker Kit é o seu aliado para garantir ambientes prontos, seguros e replicáveis em poucos minutos. Dê o próximo passo rumo à produtividade máxima e nunca mais se preocupe com o famoso "na minha máquina funciona".
+> Imagine speeding up the start of any project, without wasting time on repetitive and complex configurations. **Docker Kit** was created to transform the way you handle development environments, bringing convenience, standardization, and agility to your daily routine. With it, you eliminate technical barriers and focus on what really matters: creating amazing solutions. Whether you are a beginner or experienced, Docker Kit is your ally to ensure ready, secure, and replicable environments in just a few minutes. Take the next step towards maximum productivity and never worry again about the famous "it works on my machine".
 
-## ⚠️ Pré-requisitos
+## ⚠️ Prerequisites
 
 - Docker 28.1.1+
 
-## 🚀 Como utilizar
+## 🚀 How to use
 
-Escolha o template de Dockerfile que melhor se adapta ao seu projeto e personalize conforme necessário:
+Choose the Dockerfile template that best fits your project and customize it as needed:
 
 ```bash
-# Clone o repositório
+# Clone the repository
 git clone https://github.com/ImGabreuw/docker-kit.git
 
-# Acesse o diretório do projeto
+# Access the project directory
 cd docker-kit
 
-# Copie o template desejado para o seu projeto
-cp caminho/do/Dockerfile /caminho/do/seu/projeto/
-# Exemplo: cp java-17/basic/Dockerfile ~/Projects/my-java-project
+# Copy the desired template to your project
+cp path/to/Dockerfile /path/to/your/project/
+# Example: cp java-17/basic/Dockerfile ~/Projects/my-java-project
 ```
 
-Depois de copiar o Dockerfile, ajuste as configurações conforme as necessidades do seu projeto e utilize os comandos Docker normalmente:
+After copying the Dockerfile, adjust the settings according to your project's needs and use the standard Docker commands:
 
 ```bash
-# Build da imagem
-docker build -t minha-imagem .
+# Build the image
+docker build -t my-image .
 
-# Execução do container
-docker run --rm -p 8080:8080 minha-imagem
+# Run the container
+docker run --rm -p 8080:8080 my-image
 ```
 
-Explore o repositório para encontrar diferentes configurações prontas para linguagens e frameworks populares.
+Explore the repository to find different ready-to-use configurations for popular languages and frameworks.
 
-## 📫 Contribuição
+## 📫 Contributing
 
-Para contribuir com **docker-kit**, siga estas etapas:
+To contribute to **docker-kit**, follow these steps:
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome da funcionalidade>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<breve descrição sobre a funcionalidade>'`
-4. Envie para o branch original: `git push origin <feature/funcionalidade>`
-5. Crie a solicitação de pull.
+1. Fork this repository.
+2. Create a branch: `git checkout -b <feature-name>`.
+3. Make your changes and commit them: `git commit -m '<short description of the feature>'`
+4. Push to the original branch: `git push origin <feature/feature-name>`
+5. Create the pull request.
 
-Como alternativa, consulte a documentação do GitHub
-em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+Alternatively, check out GitHub's documentation on [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## 🤝 Colaboradores
+## 🤝 Contributors
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+We thank the following people who contributed to this project:
 
 <table>
   <tr>
@@ -68,4 +67,4 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-[⬆ Voltar ao topo](#docker-kit)<br>
+[⬆ Back to top](#docker-kit)<br>
